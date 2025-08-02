@@ -1,50 +1,100 @@
-# Welcome to your Expo app 👋
+# 📱 Task Mate - DailyTaskMate App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Task Mate** is a productivity-focused mobile app that helps you manage your daily tasks effectively. Built using **React Native** and **Expo**, it allows users to create, categorize, and schedule tasks with features like priority selection, recurring daily tasks, and local notifications.
 
-## Get started
+---
 
-1. Install dependencies
+## 🔗 Live Build (APK)
 
-   ```bash
-   npm install
-   ```
+👉 [Download the Latest APK from Expo](https://expo.dev/accounts/harshasaisri484/projects/DailyTaskMate/builds/d337960e-2c3c-4a67-9e02-557f6046ef8a)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Features
 
-In the output, you'll find options to open the app in a
+- ✅ Add, update, and delete tasks
+- 🗂️ Categorize tasks: Personal, Work, Learn
+- 🔔 Task priority selection: High, Medium, Low
+- ⏰ Set deadline with date & time pickers
+- 🔁 Support for daily recurring tasks
+- 📦 Local storage using AsyncStorage
+- 📱 Optimized for Android devices
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Installation & Setup
 
-## Get a fresh project
+### 📦 Prerequisites
 
-When you're ready, run:
+- Node.js (v18+)
+- Expo CLI: `npm install -g expo-cli`
+- Git
+- Android Studio (for emulator) or a physical Android device
+
+### 🛠️ Steps
 
 ```bash
-npm run reset-project
+# Clone the repo
+git clone https://github.com/sriharsha778/Task-Mate-App.git
+cd Task-Mate-App
+
+# Install dependencies
+npm install
+
+# Start Expo
+npx expo start
+For Android testing, connect a physical device via USB or start an emulator via Android Studio.
+
+🏗️ Build Instructions (Expo EAS)
+bash
+Copy
+Edit
+# Install EAS CLI
+npm install -g eas-cli
+
+# Login to Expo
+eas login
+
+# Configure EAS
+eas build:configure
+
+# Build APK
+eas build --platform android --profile preview
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+📁 Folder Structure
 
-To learn more about developing your project with Expo, look at the following resources:
+Task-Mate-App/  
+├── app/                    # Screens and navigation  
+├── components/             # Reusable UI components  
+├── contexts/               # Theme and global state providers  
+├── storage/                # Local storage (AsyncStorage)  
+├── utils/                  # Utility functions (e.g., ID generation)  
+├── assets/                 # Fonts, images, icons  
+├── App.tsx                 # Root app  
+├── app.json                # Expo config  
+├── README.md
+└── ...  
+###  ⚙️ Technologies Used
+-  React Native
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+-  Expo
 
-## Join the community
+-  Expo Router
 
-Join our community of developers creating universal apps.
+-  AsyncStorage
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-  React Native Picker
+
+-  React Native DateTimePicker
+
+
+###  📄 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Sri Harsha Sai
+🔗 GitHub
+
+Thanks for checking out Task Mate! Feel free to star ⭐ the repository if you found it helpful.
