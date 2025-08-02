@@ -93,8 +93,8 @@ Task-Mate-App/
 ###  📄 License
 This project is licensed under the MIT License.
 
-🙋‍♂️ Author
+🙋‍♂️ Author  
 Sri Harsha Sai
-🔗 GitHub
+[🔗 GitHub](https://github.com/sriharsha778)
 
 Thanks for checking out Task Mate! Feel free to star ⭐ the repository if you found it helpful.
